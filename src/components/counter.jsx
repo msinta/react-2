@@ -10,9 +10,10 @@ class Counter extends Component {
   //   this.handleIncrement = this.handleIncrement.bind(this);
   // }
 
-  handleIncrement() {
+  handleIncrement = () => {
     console.log("Increment clicked", this);
-  }
+
+  };
 
   render() {
     return (
