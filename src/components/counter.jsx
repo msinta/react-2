@@ -1,10 +1,14 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 class Counter extends Component {
-
   render() {
-    return <h1>hello world</h1>
+    return (
+      <div>
+        <h1>hello world</h1>
+        <button>Increment2</button>
+      </div>
+    );
   }
 }
 
-export default Counter ;
+export default Counter;
