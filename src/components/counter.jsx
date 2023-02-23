@@ -32,12 +32,14 @@ class Counter extends Component {
             <div class="col-"><button
               onClick={this.handleDecrease}
               className="btn btn-secondary btn-sm"
+              disabled={this.state.value === 0}
             >
               -
             </button></div>
             <div class="col-sm-1"><button
               onClick={() => this.props.onDelete(this.props.counter.id)}
               className="btn btn-danger btn-sm"
+
             >
               X
             </button></div>
